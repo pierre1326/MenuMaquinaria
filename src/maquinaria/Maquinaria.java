@@ -28,6 +28,10 @@ public abstract class Maquinaria implements Comparable<Maquinaria> {
 
 	public abstract String obtenerTablaDepreciacion();
 	
+	public int getId() {
+		return id;
+	}
+	
 	public String obtenerTablaMantenimientos() {
 		if(mantenimientos.size() == 0) {
 			return "No se han realizado mantenimientos";

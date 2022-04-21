@@ -18,6 +18,10 @@ public class Responsable implements Comparable<Responsable> {
 		this.maquinarias = new ArrayList<>();
 	}
 
+	public String getIdentificacion() {
+		return identificacion;
+	}
+	
 	public void agregarMaquinaria(Maquinaria maquinaria) {
 		this.maquinarias.add(maquinaria);
 	}
